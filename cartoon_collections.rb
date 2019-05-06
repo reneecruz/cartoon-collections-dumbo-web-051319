@@ -19,5 +19,5 @@ def find_the_cheese(contains_cheddar)
   if contains_cheddar.include?("cheddar")
     a = contains_cheddar.find("cheddar") 
   end
-  a
+  puts a
 end 
