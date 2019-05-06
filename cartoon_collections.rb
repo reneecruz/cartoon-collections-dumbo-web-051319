@@ -20,8 +20,7 @@ def find_the_cheese(contains_cheddar)
   contains_cheddar.each do |cheese| 
       if cheese_types.include?(cheese)
         return cheese
-      elsif !contains_cheddar.include?(cheese)
-        return nil
       end
   end
+  return nil
 end 
