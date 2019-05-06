@@ -20,5 +20,4 @@ def find_the_cheese(contains_cheddar)
     ontains_cheddar.find do |cheese| 
       if contains_cheddar.include?(cheese)
   end
-  a
 end 
