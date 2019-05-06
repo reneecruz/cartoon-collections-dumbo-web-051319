@@ -16,8 +16,7 @@ end
 
 def find_the_cheese(contains_cheddar) 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  puts contains_cheddar.include?("cheddar")
-  if contains_cheddar.include?(cheese_types)
-    contains_cheddar.find(cheese_types) 
+  if contains_cheddar.include?("cheddar")
+    contains_cheddar.find("cheddar") 
   end
 end 
